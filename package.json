@@ -1,0 +1,15 @@
+{
+  "name": "diskhog",
+  "version": "1.0.0",
+  "description": "diskhog searches through a given directory and sorts the different files and folders by given arguments. Check out the help file for more information on how to use diskhog.",
+  "main": "diskhog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parker Thurston",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "filesize": "^8.0.7"
+  }
+}

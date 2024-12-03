@@ -1,0 +1,15 @@
+Verwendungszweck: node diskhog [arguments] Deutsch (German)
+ -p, --path <Weg> value, der relative oder absolute Pfadname einer Datei oder eines Verzeichnisses. Standard ist -p .
+ -s, --sort <Sortieren> alpha | exten | size 
+   alpha sortiert alphabetisch (aufsteigend)
+   exten sortiert nach Erweiterung alphabetisch (aufsteigend)
+   size sortiert nach Größe (absteigend)
+   Standard ist unsortiert
+   Wenn zwei Sortierreihenfolgen angegeben werden, ist die zweite eine sekundäre Sortierung, z. -s exten size
+-m, --metric <metrisch>, Größen werden als KB, MB, GB und TB angezeigt.
+-t, --threshold <Schwelle> min, zeigt nur Dateien und Ordner von mindestens minimaler Größe an. min ist die Zahl in Millionen. Standard ist -t 0.
+-lang, --language <Sprache> <2-Buchstaben-Sprachcode-2-Buchstaben-Ländercode>. ändert den Hilfetext und das Zahlenformat bei der Anzeige von Dateigrößen.
+   Standardmäßig Umgebungsvariable LANG. Wenn es nicht vorhanden ist, wird standardmäßig en-US (English, United States) verwendet
+-h, --help <Hilfe> gibt diesen Verwendungsbildschirm aus. Verwendet -lang, --language wie oben beschrieben.
+
+Alle anderen Parameter werden ignoriert.

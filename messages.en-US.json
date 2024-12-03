@@ -1,0 +1,7 @@
+{
+    "Metric takes no arguments": "Metric takes no arguments.",
+    "is not a valid sort argument":"is not a valid sort argument.",
+    "is not a valid diskhog argument":"is not a valid diskhog argument. If it is, make sure you used the correct amount of dashes (-) and spelled it as specified in the documentation.",
+    "is not a valid input for threshold. Input a number": "is not a valid input for threshold. Input a number.",
+    "is not a valid path, enter a valid system path": "is not a valid path, enter a valid system path."
+}

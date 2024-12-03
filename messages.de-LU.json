@@ -1,0 +1,7 @@
+{
+    "Metric takes no arguments": "Metrik akzeptiert keine Argumente.",
+    "is not a valid sort argument":"ist kein gültiges Sortierargument.",
+    "is not a valid diskhog argument":"ist kein gültiges diskhog argument. Wenn dies der Fall ist, vergewissern Sie sich, dass Sie die richtige Anzahl an Bindestrichen (-) verwendet und wie in der Dokumentation angegeben geschrieben haben.",
+    "is not a valid input for threshold. Input a number": "ist keine gültige Eingabe für den Schwellenwert. Geben Sie eine Zahl ein.",
+    "is not a valid path, enter a valid system path": "kein gültiger Pfad ist, geben Sie einen gültigen Systempfad ein."
+}

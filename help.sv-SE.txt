@@ -1,0 +1,17 @@
+Användning: node diskhog [argument] Sverige (Sweden)
+-p, --path <sökväg>, den relativa eller absoluta sökvägen för en fil eller filkatalog. 
+    Standard är . (aktuell filkatalog)
+-s, --sort alpha | exten | size. Om -s eller --sort saknas, osorterad är standard.
+    alpha sorterar i alfabetisk ordning (stigande)
+    exten sorterar hur fan ska jag veta (stigande)
+    size sorterar efter storlek (minskande) 
+    Om -s eller --sort är angivet utan alpha eller size, standard är size.
+-m, --metric, filstorlek visas i KB, MB, GB, och TB.
+-t, --threshold <min>, visa endast filer och filkataloger som är minst minimum i storlek.
+    min är angivet nummer i miljoner. Standard är 1.
+-lang, --language <språkkod 2 boksäver_landskod 2 bokstäver>. 
+    Standard är miljövariabeln LANG. en_us (English, United States) Om den inte existerar.
+    Kan ändra hjälp texten och format på nummer när filstorlekar visas.
+-h, --help skriver denna fil till consolen. Använder -lang, --language (eller standard) som är beskrivet ovan.
+
+Alla andra argument är ignorerade.
